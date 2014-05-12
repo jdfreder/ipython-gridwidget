@@ -88,4 +88,4 @@ class GridWidget(ContainerWidget):
             row.remove_class('widget-container')
             row.remove_class('vbox')
             row.add_class('row-fluid')
-            [c.add_class('span' + str(12/len(row.children))) for c in row.children]
+            [c.add_class('span%d' % int(12/len(row.children))) for c in row.children]

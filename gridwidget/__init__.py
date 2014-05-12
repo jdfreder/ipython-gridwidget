@@ -1,1 +1,1 @@
-from grid import GridWidget
+from .grid import GridWidget
